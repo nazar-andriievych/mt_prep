@@ -79,8 +79,17 @@ Calculate the smallest subnet which will satisfy the organisation needs if we kn
 3. Find all files in /usr/bin containing 'star' in the name:
 - find /usr/bin -type f -name "*star*"
 
-## powers of 2
+## Wifi network
 
+Calculate all
+- sudo apt install ipcalc
+- ipcalc 10.0.0.1/23
+
+Convert numbers
+- echo "obase=2; <decimal>" | bc
+- echo "ibase=1; <binary>" | bc
+
+Powers of 2
 2^1 = 2
 2^2 = 4
 2^3 = 8
